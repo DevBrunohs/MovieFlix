@@ -99,7 +99,7 @@ h4{
     position: fixed;
     bottom:0;
     left:0;;
-    padding:10px 150px;
+    padding:10px 200px;
     width:100vw;
     display:flex;
     justify-content:space-between;
@@ -108,7 +108,9 @@ h4{
     
 }
 
-.bottom-text{
+ /* Names footer  */
+
+ .bottom-text{
     color: rgba(255, 255, 255, 0.75);
     margin: 0px 180px;
 
@@ -118,6 +120,17 @@ h4{
     width: 24px;
     height: 24px;
 }
+
+  /* mouse over link */
+  h4:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  h4:active {
+    color: yellow;
+  }
+
 
 /* *{
     margin: 0;
