@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.548);
+    width: auto;
+    height: auto;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-right:5px;
+}
+
+h2{
+    font-size: 30px;
+    
+}
+
+    
+h4{
+    color: white;
+    margin-bottom: 2px;
+}
+
+#color-home{
+    color:red
+}
+
+#git{
+    padding-right:3px;
+}
+
+#linkedin{
+    padding-left:3px;
+}
+
+.link-header{
+    color:black;
+    font-size: 20px;
+    display:flex;
+    align-items: flex-end;
+    margin-right: 60px;
+}
+
+.container{
+    background-image:url("./IMG/netflix.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.background{
+    margin:0;
+    padding:0;
+    background-color: rgba(0, 0, 0, 0.513);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color:rgb(180, 47, 47);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.texto{
+    color:white;
+    font-size: 25px;
+
+}
+
+.button{
+    color:white;
+    font-size: 20px;
+    border: 1px solid green;
+    padding: 6px 50px;
+    border-radius:5px;
+    opacity:1;
+    cursor:pointer;
+}
+
+.button:hover{
+    opacity: 1;
+    background-color:green;
+    transition: 0.6s;
+}
+
+.bottom-text{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0px 180px;
+
+}
+
+.social{
+    width: 24px;
+    height: 24px;
+}
+
+.link-header{
+    color:black;
+    font-size: 20px;
+    display:flex;
+    align-items: flex-end;
+}
+
+#color-home{
+    color:red
+}
+
+
+.background{
+    margin:0;
+    padding:0;
+    background-color: rgba(0, 0, 0, 0.513);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color:rgb(180, 47, 47);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.texto{
+    color:white;
+    font-size: 25px;
+
+}
+
+.button{
+    color:white;
+    font-size: 20px;
+    border: 1px solid green;
+    padding: 6px 50px;
+    border-radius:5px;
+    opacity:1;
+    cursor:pointer;
+}
+
+.button:hover{
+    opacity: 1;
+    background-color:green;
+    transition: 0.6s;
+}
+
+/*-----------LOGIN--------------------*/
+.titulox {
+    color: red;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+
+.form {
+    padding: 60px 20px;
+    height: 300px;
+    background-color: rgba(53, 51, 51, 0.637);
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #E6E6E6;
+    outline: none
+}
+
+label {
+    padding-bottom: 16px;
+}
+
+button {
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+a {
+    padding-top: 10px;
+    color: red;
+}
+
+a:hover{
+    opacity:0.6;
+}
+
+/* ----------------- FILMES ----------------- */
+/* TITULO DOS FILMES */
+.titulo1{
+    font-size: 65px;
+    text-align: center;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* IMAGENS DE CARTAZ*/
+.filmes img{
+    height: 460px;
+    width: 320px;
+    border-radius: 12px;
+}
+
+/* CONFIG DAS CAIXAS*/
+.filmes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 0 auto 0 auto ;
+    gap: 100px;
+    padding-top: 30px;
+}
+
+@media (max-width: 976px) {
+
+    .filmes {
+        position:relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .titulo1{
+        font-size: 45px;
+        text-align: center;
+        color: azure;
+        background-color: rgba(0, 0, 0, 0.349);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/* CAIXA DOS TEXTOS*/
+.texto1{
+    background-color: #F4F4F4;
+    width: 320px;
+    height: 800px;
+    padding-bottom: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.texto2{
+    background-color: #F4F4F4;
+    width: 320px;
+    height: 800px;
+    padding-bottom: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+/* TITULO DO FILME*/
+.texto1 h3{
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+} 
+.texto2 h3{
+    font-size: 32px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* DESCRIÇÃO DO FILME*/
+.texto1 p{
+    height: 300px;
+    width: 310px;
+    font-size: 22px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.texto2 p{
+    height: 300px;
+    width: 310px;
+    font-size: 22px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* BOTÃO PARA ASSISTIR*/
+.assistir {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #047a18;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+  }
+.assistir span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.assistir span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.assistir:hover span {
+    padding-right: 25px;
+}
+.assistir:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* ------------------- FOOTER DA PAGINA DE ITENS ---------------- */
+.footerItens{
+    background-color:rgba(23, 23, 23, 1);
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding:10px 10px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+} 
+h4{
+    color: white;
+    margin-bottom: 2px;
+}
+.bottom-text{
+    color: rgba(255, 255, 255, 0.75);
+
+}
+#git{
+    padding-right:3px;
+}
+#linkedin{
+    padding-left:3px;
+}
+.social{
+    width: 24px;
+    height: 24px;
+}
+
+h4:hover {
+    color: red;
+  }
+  
+  /* selected link */
+h4:active {
+    color: yellow;
+  }
+  @media (max-width: 976px) {
+
+    .footerItens {
+        position:absolute;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.footerItens {
+    background-color: rgba(23, 23, 23, 1);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+.bottom-text {
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+#git {
+    padding-right: 3px;
+}
+
+#linkedin {
+    padding-left: 3px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+}
+
+h4:hover {
+    color: red;
+}
+
+/* selected link */
+h4:active {
+    color: yellow;
+}
+
+/* ----------------- FOOTER ----------------- */
+.footer {
+    background-color: rgba(23, 23, 23, 1);
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+.bottom-text {
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+#git {
+    padding-right: 3px;
+}
+
+#linkedin {
+    padding-left: 3px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+}
+
+h4:hover {
+    color: red;
+}
+
+/* selected link */
+h4:active {
+    color: yellow;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#header{
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    color: black;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 976px){
+    .titulo {
+        color: rgb(180, 47, 47);
+        font-size: 40px;
+        margin-left: 550px;
+    }
+
+    .background p {
+        margin-left: 50px;
+    }
+
+    .footerItens {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        position: relative;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .alunos {
+        width: 250px;
+        height: auto;
+    }
+
+    h4 {
+        color: white;
+        margin-bottom: 2px;
+    }
+
+    .bottom-text {
+        color: rgba(255, 255, 255, 0.75);
+
+    }
+
+    .social {
+        width: 15px;
+        height: 15px;
+    }
+    .filmes {
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .titulo1 {
+        font-size: 45px;
+        text-align: center;
+        color: azure;
+        background-color: rgba(0, 0, 0, 0.349);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+@media (max-width: 500px){
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: .5s;
+        z-index: 1000;
+        height: 150px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu{
+        height: 150px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    #btn-mobile{
+        display: block;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburgue{
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburgue::after,#hamburgue::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background:currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
